@@ -1,0 +1,138 @@
+.body {
+    background-color: white;
+}
+
+.payment-form {
+    background-color: white;
+    border: solid 1px gray;
+    border-radius: 6px;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: 550;
+    color: black;
+    padding: 0 10px;
+    border-bottom: solid 1px #ccc;
+    background-color: #f0f0f0;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 0 10px;
+    border-top: solid 1px #ccc;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+}
+
+.btn {
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-cancel {
+    background-color: gray;
+}
+
+.btn-send {
+    background-color: blue;
+}
+
+.btn-cancel:hover {
+    background-color: #555;
+}
+
+.btn-send:hover {
+    background-color: rgb(15, 89, 173);
+}
+
+.content {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.alert {
+    background: pink;
+    border: solid 1px red;
+    border-radius: 4px;
+    padding: 12px 20px;
+    color: red;
+}
+
+.row-inputs-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card {
+    flex-basis: 40%;
+}
+
+.cvc {
+    flex-basis: 30%;
+}
+
+.amount {
+    flex-basis: 30%;
+}
+
+.imput-peso {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.input-peso input {
+    flex-grow: 1;
+}
+
+input,
+textarea {
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    padding: 8px 10px;
+}
+
+.first,
+.last {
+    flex-basis: 50%;
+}
+
+.city {
+    flex-basis: 50%;
+}
+
+.state,
+.postal-code {
+    flex-basis: 25%;
+}
+
+.accepting-cards,
+message {
+    flex-basis: 50%;
+}
+
+.notes-here {
+    font-size: 10px;
+    color: #555;
+
+}

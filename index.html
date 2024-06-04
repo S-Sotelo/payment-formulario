@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="payment-form">
+        <div class="header">
+            Payment form example
+        </div>
+        <div class="content">
+            <div class="alert">
+                Some fields are missing.
+            </div>
+
+            <div class="row-inputs-container">
+                <div class=" card input-container">
+                    <label for="card">Card #</label>
+                    <input type="number" id="card" />
+                </div>
+                <div class="cvc input-container">
+                    <label for="cvc">CVC #</label>
+                    <input type="number" id="cvc" />
+                </div>
+                <div class="amount input-container">
+                    <label for="amount">Amount</label>
+                    <div class="input-peso">
+                        $ <input type="number" id="amount" />
+                    </div>
+                </div>
+            </div>
+            <div class="row-inputs-container">
+                <div class="first input-container">
+                    <label for="first">First name</label>
+                    <input type="text" id="first" name="first" />
+                </div>
+                <div class="last input-container">
+                    <label for="last">Last name</label>
+                    <input type="text" id="last" name="last" />
+                </div>
+            </div>
+
+            <div class="row-inputs-container">
+                <div class="city input-container">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" />
+                </div>
+                <div class="state input-container">
+                    <label for="state">State</label>
+                    <input type="text" id="state" name="state" />
+                </div>
+                <div class="postal-code input-container">
+                    <label for="postal-code">Postal Code</label>
+                    <input type="number" id="postal-code" name="postal-code" />
+                </div>
+            </div>
+
+            <div class="row-inputs-container">
+                <div class="accepting-cards input-container">
+                    <div>We Accept</div>
+                    <div>
+                        <input name="card-type" id="mastercard" type="radio" />
+                        <label for="mastercard"><i class="fa-brands fa-cc-mastercard"></i></label>
+
+                        <input name="card-type" id="visa" type="radio" />
+                        <label for="visa"><i class="fa-brands fa-cc-visa"></i></label>
+                    </div>
+                </div>
+                <div class="message input-container">
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+                    <div class="notes-here">
+                        Add any notes here.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class=" footer">
+            <button class="btn btn-cancel">
+                Cancel
+            </button>
+            <button class="btn btn-send">
+                Send
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
